@@ -1,0 +1,17 @@
+#dependencies
+node_modules/
+
+#Environment variables(Never commit secret credentials!)
+.env
+.env.local
+.env.*.local
+
+#Build outputs
+dist/
+build/
+
+#OS generated files & logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
